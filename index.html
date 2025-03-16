@@ -5,12 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="index.css" />
+    <style>
+      .social-button {
+        position: absolute;
+        border: 2px solid white;
+        border-radius: 50px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .social-button:hover {
+        background-color: white;
+        color: black;
+      }
+      .linkedin { top: 180px; left: 120px;width: 180px;height: 55px;font-size: 16px;}
+      .facebook { top: 180px; right: 120px;width: 180px;height: 55px;font-size: 16px; }
+      .instagram { bottom: 120px; left: 120px;width: 180px;height: 55px;font-size: 16px; }
+      .xxx { bottom: 120px; right: 120px;width: 180px;height: 55px;font-size: 16px; }
+      .project {left:180px;width: 140px;height: 35px;font-size: 13px;}
+    </style>
   </head>
   <body>
     <div class="home_section">
       <nav>
-        <span>Duy Thai</span>
-        <span>Project</span>
+        <span>Chung Dang</span>
+        <a href="https://github.com/Chunghochoi" target="_blank" class="social-button project">Project</a>
         <Span>
           UX/UI Designer
           <br />
@@ -99,16 +122,13 @@
         </div>
 
     </div>
-
     <div class="contact_section">
-        <span>Linked In.</span>
-        <span>Facebook.</span>
-        <span>Instagram.</span>
-        <span>XXX.</span>
-        <span>Wanna work with me</span>
+      <a href="https://www.linkedin.com" target="_blank" class="social-button linkedin">LinkedIn</a>
+      <a href="https://www.facebook.com" target="_blank" class="social-button facebook">Facebook</a>
+      <a href="https://www.instagram.com" target="_blank" class="social-button instagram">Instagram</a>
+      <a href="#" target="_blank" class="social-button xxx">XXX</a>
+      <span>Wanna work with me</span>
     </div>
-
-
     <div class="footer">
         <span class="footer_title">
             Duy 
@@ -122,13 +142,12 @@
             <span>Project</span>
             <span>Contact</span>
         </div>
-
         <div class="footer_nav">
-          <a href="https://www.linkedin.com" target="_blank" class="social-button">LinkedIn</a>
-          <a href="https://www.facebook.com" target="_blank" class="social-button">Facebook</a>
-          <a href="https://www.instagram.com" target="_blank" class="social-button">Instagram</a>
-          <a href="#" target="_blank" class="social-button">XXX</a>
-        </div>
+          <span>Linked In.</span>
+          <span>Facebook.</span>
+          <span>Instagram.</span>
+          <span>XXX.</span>
+      </div>
     </div>
   </body>
 </html>
